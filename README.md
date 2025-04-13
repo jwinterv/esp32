@@ -27,8 +27,9 @@ A learning prototype developed by **IEEE Student Branch at Instituto Federal Flu
    - Connection stability degrades with multiple clients  
    - Needs better state management    
 
-4. **Multi-user interface sync**  
-   - Button states don't update across different user sessions
+4. **Initial state loading**  
+   - Web interface doesn't show current LED states on first load  
+   - Users must toggle buttons to see actual device states
   
 > **OBS**: You can customize the WiFi credentials and GPIO pins by modifying these values in the code:  
 > ```cpp
